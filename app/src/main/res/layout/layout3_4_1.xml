@@ -13,7 +13,8 @@
         app:layout_constraintEnd_toStartOf="@id/button2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread" />
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="1" />
 
     <android.support.design.button.MaterialButton
         android:id="@+id/button2"
@@ -23,7 +24,8 @@
         app:layout_constraintStart_toEndOf="@id/button1"
         app:layout_constraintEnd_toStartOf="@id/button3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="2" />
 
     <android.support.design.button.MaterialButton
         android:id="@+id/button3"
@@ -33,6 +35,7 @@
         app:layout_constraintStart_toEndOf="@id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="4" />
 
 </android.support.constraint.ConstraintLayout>
